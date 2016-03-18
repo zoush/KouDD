@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yd.koudd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <!-- 可选 -->
+    <uses-permission android:name="android.permission.GET_TASKS"></uses-permission>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+        <activity
+            android:name="activity.RegistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.ForgetPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.ModifyPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.ShopTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.BindTaoBaoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.TypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.AboutUsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.SetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+        <activity
+            android:name="activity.ActiveActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.ActiveDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+        <activity
+            android:name="activity.MarketDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.MessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.ShelfActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.FavoriteActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.ProductListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.SearchActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.RankActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/StyledIndicators" />
+
+        <activity
+            android:name="activity.DiectDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/StyledIndicators" />
+
+        <activity
+            android:name="activity.WebViewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <activity
+            android:name="activity.ProductDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+        <activity
+            android:name="activity.MarketActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/otherTheme" />
+
+        <meta-data
+            android:name="BUG_HD_SDK_GENERAL_KEY"
+            android:value="dd80acaba14b307379bf5c648b5cdf58" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="3c61bf26081a19925d629ecb9585c6ac" />
+
+
+        <activity
+            android:name="com.umeng.socialize.editorpage.ShareActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.UMDefault" />
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56b0116367e58e121f0030c8"></meta-data>
+
+        <meta-data android:value="Channel ID" android:name="yodo"/>
+
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="yodo" />
+
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name=".WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <service android:name="com.sina.weibo.sdk.net.DownloadService" android:exported="false"/>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent100424468" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

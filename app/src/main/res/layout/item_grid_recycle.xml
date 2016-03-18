@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            fresco:placeholderImage="@mipmap/ic_p1"
+            fresco:placeholderImageScaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ellipsize="end"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:lineSpacingExtra="1dp"
+            android:lines="2"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="￥100.00"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="right"
+                android:layout_marginRight="5dp"
+                android:layout_toRightOf="@id/tvPrice"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/dark_black"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

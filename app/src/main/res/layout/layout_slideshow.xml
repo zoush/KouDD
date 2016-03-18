@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#80000000"
+            android:ellipsize="end"
+            android:visibility="gone"
+            android:gravity="center_vertical"
+            android:maxEms="12"
+            android:paddingLeft="10dp"
+            android:paddingRight="80dp"
+            android:singleLine="true"
+            android:text="恒大淘宝90分钟2:1绝杀广州富力"
+            android:textColor="#f7f7f7"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/dotLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/v_dot1"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:background="@mipmap/dot_focus" />
+
+            <View
+                android:id="@+id/v_dot2"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/dot_blur" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</RelativeLayout>

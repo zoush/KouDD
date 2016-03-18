@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="我的"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/border" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rlLogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/blue_circle" />
+
+                    <TextView
+                        android:id="@+id/tvLogin"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/white_circle"
+                        android:gravity="center"
+                        android:text="登录/注册"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <com.facebook.drawee.view.SimpleDraweeView
+                        android:id="@+id/ivLogo"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:layout_centerInParent="true"
+                        android:visibility="gone"
+                        fresco:placeholderImage="@mipmap/ic_face"
+                        fresco:placeholderImageScaleType="centerCrop"
+                        fresco:roundAsCircle="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rlLogo"
+                    android:layout_marginTop="5dp"
+                    android:text="设置昵称"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llShelf"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listview_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="22dp"
+                    android:src="@mipmap/ic_shelf" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="已上架宝贝"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/ic_right_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/border" />
+
+            <LinearLayout
+                android:id="@+id/llFavor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listview_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="22dp"
+                    android:src="@mipmap/ic_follow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="我的收藏"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/ic_right_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/border" />
+
+            <LinearLayout
+                android:id="@+id/llMessage"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listview_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="22dp"
+                    android:src="@mipmap/ic__my_message" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="我的消息"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/ic_right_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/border" />
+
+            <LinearLayout
+                android:id="@+id/llSet"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listview_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="22dp"
+                    android:src="@mipmap/ic_set" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="系统设置"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/ic_right_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/border" />
+
+            <LinearLayout
+                android:id="@+id/llAbout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listview_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="22dp"
+                    android:src="@mipmap/ic_about" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="关于我们"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/ic_right_arrow" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/border" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

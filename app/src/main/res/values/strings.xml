@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">口袋档口</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">首页</string>
+    <string name="type">分类</string>
+    <string name="directory">档口</string>
+    <string name="mine">我的</string>
+
+    <string name="about">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;口袋档口创立与2010年末，已服务商网为网站核心，致力于帮助网商货源信息获取、筛选、交流、决策及管理于一站式服务。打造网商一体化服务型电子商务平台。\n&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;秉承网商园创立以来"服务网商、成就网商"的口号为使命，网商园一直致力于将供应商于销售商的无缝的对接，始终坚持为网商提供电子商务产品与服务，更好的满足供应商于销售商的需求。网商园将持续朝着这个方向，让销售商获得完美的体验，享受电子商务给生活带来的美好改变。同时让优质供应商有效推广自己的产品和服务，享受业务的增长和事业的成功。</string>
+
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="load_fail">加载失败</string>
+
+</resources>

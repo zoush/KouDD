@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/common_title_bar_btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp"
+            android:paddingTop="15dp"
+            android:src="@mipmap/ic_back"
+            android:textSize="18sp"
+            android:visibility="visible" />
+
+        <info.hoang8f.android.segmented.SegmentedGroup
+            android:id="@+id/segmented2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            segmentedgroup:sc_border_width="1dp"
+            segmentedgroup:sc_checked_text_color="#FFFFFF"
+            segmentedgroup:sc_corner_radius="10dp"
+            segmentedgroup:sc_tint_color="#00B6E8">
+
+            <RadioButton
+                android:id="@+id/button1"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="商品" />
+
+            <RadioButton
+                android:id="@+id/button2"
+                style="@style/RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="档口" />
+        </info.hoang8f.android.segmented.SegmentedGroup>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/border" />
+
+    <com.pulltorefresh.PullToRefreshLayout
+        android:id="@+id/refresh_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/refresh_head" />
+        <!-- 支持所有实现Pullable接口的View -->
+
+        <com.pulltorefresh.PullableScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.baoyz.swipemenulistview.SwipeMenuListView
+                    android:id="@+id/listview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@color/border"
+                    android:dividerHeight="0.1dp" />
+
+
+                <com.baoyz.swipemenulistview.SwipeMenuListView
+                    android:id="@+id/diectListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@color/border"
+                    android:dividerHeight="0.1dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </com.pulltorefresh.PullableScrollView>
+
+        <include layout="@layout/load_more" />
+    </com.pulltorefresh.PullToRefreshLayout>
+
+
+</LinearLayout>
