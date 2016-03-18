@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\alisdk-hotpatch-3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="375466e945f8c9042ac92fb4da4084644276c045">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\alisdk-hotpatch-3-9d893f5b226d206d81c41eeef427f7a130160dec.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\alisdk-kernel-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0d248c4e285da460171cc751fcb38888a73c5fa4">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\alisdk-kernel-2.0.0-fa2904c56565bb965809073a6954e364b3e64570.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.github.afollestad.material-dialogs\commons\0.8.5.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="91fc1eccbe4e6b2d4fa4bfaf6ee91ce6080f0b4d">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-ce27d822d9cdc2652e6268d8a0900d5962c9d4e2.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\AMap_Services_V2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="89ccf8789dad06e5ed2eab33e89d1dfab5226bba">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\AMap_Services_V2.3.1-e7ca673c7cb4196507d03678c77cb34373f35a4e.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3836ecca4e31e18ea8fbae8e822d49777b0db4f7">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-d5413cac14f391bb5d84ac9e4b81546b7ef5304c.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.github.afollestad.material-dialogs\core\0.8.5.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="98e053e916beb435430ccb21445dc89d9a13880e">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-616cd0c03829ac99b06129db15c65559c7cc1d39.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\httpmime-4.1.3-079d4b959b8e3537405dc9e949267ac9a615f00b.jar" />
+    </item>
+    <item
+        jar="C:\Users\d\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\library-2.4.0-ea809a3807ec2eaa5113b403ae54e2fafe6c9bbd.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\gson-2.3.1-10fc634817e0e85a24e2ef7c6477e57aeb38ee66.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.jude\swipebackhelper\2.1.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c44bd94db3b3b74d06191a6f6cbc1d5d7ba2f359">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-7d4e78f700167e9a84027c34f405b31903fa17d5.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\info.hoang8f\android-segmented\1.0.6\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="692a913dff3246e0cc5369c2508f5970ecfeca01">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-e24cad34ba329c35d579242b63d9303207599279.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\alisdk-rpc-3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eb3628d35d66b3860ec542289f0ac674a7b5c539">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\alisdk-rpc-3-14104c6ad41da64e5e7641c3f5e8a1c9b2c792bd.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\alisdk-login-8.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ede6bd97339d7ce994d162c68145900730d1e6ae">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\alisdk-login-8-e8450404e6853505ef881079f2ec70ea928dcd67.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4af24c040b21980e0a80a505816c648e36705bd9">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-b1b0bbad5455609320b6af41352eb57d4bc3bb50.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\mta-sdk-1.6.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c184c69f43b1fe46390f7123717c65bd844bccb6">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\mta-sdk-1.6.2-ed003166881de57777708062f97b959f07b72b15.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-23de168ffe576c4029ee17dbed252e9761c59e7d.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\alisdk-ui-6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="febac9fddbd6861ad611f822b1658e30bb5b78c6">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\alisdk-ui-6-e4f0907ecdd9a596cc3a4a865741d5b7435fb56a.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\org.apache.http.legacy-1f389c1c4c814301f553fad8048fa3b6d8b2592d.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\Bughd_android_sdk_v1.3.7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="defde21f1d2b852279dcdc5f0911ae3688f86c0a">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\Bughd_android_sdk_v1.3.7-19752a9200d52c71ac886d04a381fd0a2da4d2dd.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\me.zhanghai.android.materialprogressbar\library\1.1.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a24cba08e1d865a79e61335f5a1bd64d520106d">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-b8a6170bfa1da1d57497a10f4e2fcae1ca18568b.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="115a743cc0da01ca8dee6e2f2e5d901ea68200bd">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2-36ac87ccd1a057614dbe1504ee91b41fca42f052.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\sdk-legacy-support-2.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ec942d6734ddcb44a19cb64ac2fd83c4d6996e0b">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\sdk-legacy-support-2.0.0-0424c77fc315feb7932256c76f53b6717752bdad.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f67da318c236ce461e7b689cc0c50eb7f6f12520">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-6c4ee3c540cd1d9a1c4458df03060bb0dbbed35c.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\Android_Location_V1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2ffeb17da57de5b5e57ec44c6397fb4d682cf0db">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\Android_Location_V1.3.0-9099a7ae125741093792ee238b2bc047c28333e9.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="291877a10fd2a93a6fb8f3e7733fc7ba4d3acea0">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\SocialSDK_Sina-3cd57a266b5ac5e790c7b3a9f992a1c15f687667.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="eecec4744a3531e072405142fe7acf1472f36c27">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_3-5b1cf3ebb51d7e305cdee8ac7135d50f6d8b872b.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\AMap_3DMap_V2.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0665f0b3d5038b6d593b3b3ee558c6e8dab42fd3">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\AMap_3DMap_V2.3.0-1ad90a55bc6256675767e12f564ae8d5470b6be3.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.demievil.library\refreshlayout\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b98861ef86d1575672b61b5f58a59eede6119c97">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-c56b12ed87b328670ca0ec0cc64fcd45a1a349db.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-98ccf9d0a8330a45324384df5d3df5a9cb23674b.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\alisdk-security-8.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="256132e24fb37e79a4c7d3bcf03a4a98e8ce5028">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\alisdk-security-8-2edd746fb40614cd8648bbcc8cb45e7e70aae3bb.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\open_sdk_r5509.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="538ea8fb21ea76e8cb424598ac38127cb3344d79">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\open_sdk_r5509-a25446a095fd66d446ce4473ad5ceab4ff26a2c8.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-21975c62730c310a5e3533729874b149924a5cfc.jar" />
+    </item>
+    <item
+        jar="C:\Users\d\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\eventbus-2.4.0-219bea2390bac6e64ec14b24909ac3cba1f680d5.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\alisdk-system-14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a0111820fbd7f2b3b5d034f226e61585a69d0f10">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\alisdk-system-14-836e45e1eaa8defb2a3996facf00343ab8a72c49.jar" />
+    </item>
+    <item
+        jar="F:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-c0544383c3e9e15cb6d54b92aad3c1a9d83e7682.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-138b5f98ba764bcb84a5c8377625342fe35120eb.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\Native_Libs2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="93f7d0da07c839536f1340b5ef0003b34640cef3">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\Native_Libs2-de62d6ecc9b7baa432f1ca09d0d823ee11a0038f.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1-160853e40ec0e04ce8ee158eb5bb3aabecee5029.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="845a5b3a624946b2068963ba656c117fc453701c">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-19e16a8f02e2f24213f10d9a0118beab3bac1577.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14-dbe7f47c5200fc44f84df1d9f4c318b4b8d21e42.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\alisdk-ut-5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2a80b27b2e171b942f7042c31af2722c4b480c4e">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\alisdk-ut-5-334b78f99074514c480a74eca28b049fdbd350b0.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="02ad76d011fe5421fd5a82d7cbca60a435536750">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\umeng_social_sdk-91e9e66a732724dd7562e96db9d55c4cca1521ff.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\utdid4all-1.0.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\utdid4all-1.0.4-53bc5976497329586e82de20ff27d216eb02dac7.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\libs\weiboSDKCore_3.1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c0bfcddc15de1e8a90ff166da0b9abe011346af">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\weiboSDKCore_3.1.2-7a0813026270486af4754045b5a75d6bba7bb9f9.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.8.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9178570a3a28c95fabd3bc746cd68efe99ad2b47">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-54bc45a806f42ce26d74c4f70a32c763f4039dfc.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\KouDD\OneSDK\unspecified\jars\libs\securityguard-3.1.27.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b1b808f49730856c14a6c7a11d46088a6ead687c">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\securityguard-3.1.27-40e0c4860e55c77ba771341ce4f968a9875eb7bb.jar" />
+    </item>
+    <item
+        jar="E:\KouDD\app\build\intermediates\exploded-aar\com.zhy\flowlayout-lib\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="21788c289e5fb01fb112c233ae9fde8b0a7548a2">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\classes-2269eb8dcf7d7262b162757323a50de0253e5d4c.jar" />
+    </item>
+    <item
+        jar="C:\Users\d\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-c0bddc97387efbe7390fdf265fd05511e482b9b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\d\.gradle\caches\modules-2\files-2.1\jp.wasabeef\recyclerview-animators\1.0.1\b89597f0d208fcbbbf705585e9d1710bf6b26998\recyclerview-animators-1.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b89597f0d208fcbbbf705585e9d1710bf6b26998">
+        <dex dex="E:\KouDD\app\build\intermediates\pre-dexed\debug\recyclerview-animators-1.0.1-1c96f68b719d6cfe8cecd98d868e99950ac8883e.jar" />
+    </item>
+
+</items>
