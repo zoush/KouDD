@@ -402,7 +402,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
                     if (jsonObject.getInt("code") == 0) {
                         JSONObject jsonObject1 = jsonObject.getJSONObject("data");
                         _pref.setAvatar(jsonObject1.getString("headimgurl"));
-                        _pref.setTaoBaoId(jsonObject1.getString("taobao_user_id"));
+                        if (jsonObject1.getString("taobao_user_id").length() != 0)
+                            _pref.setTaoBaoId(jsonObject1.getString("taobao_user_id"));
                     } else {
 
                     }

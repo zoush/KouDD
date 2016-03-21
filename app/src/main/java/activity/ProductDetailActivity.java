@@ -530,7 +530,7 @@ public class ProductDetailActivity extends BaseActivity {
             ivLogo.setImageURI(Uri.parse(Constants.IMAGE_URL + mDetailsBean.getBase_pic()));
         else
             ivLogo.setImageURI(Uri.parse(mDetailsBean.getBase_pic()));
-        if(mDetailsBean.getIs_collected()==1){
+        if (mDetailsBean.getIs_collected() == 1) {
             btnFav.setText("已收藏");
             btnFav.setEnabled(false);
         }
@@ -727,10 +727,10 @@ public class ProductDetailActivity extends BaseActivity {
                 try {
                     JSONObject jsonObject = new JSONObject(responseInfo.result);
                     if (jsonObject.getInt("code") == 0) {
-                        if (jsonObject.getString("data").equals("1"))
-                            ToastUtil.showToast(ProductDetailActivity.this, "上传成功");
-                        else
-                            ToastUtil.showToast(ProductDetailActivity.this, "该物品已上架,不用重复上架.");
+                        // if (jsonObject.getString("data").equals("1"))
+                        ToastUtil.showToast(ProductDetailActivity.this, "上传成功");
+                        // else
+                        //  ToastUtil.showToast(ProductDetailActivity.this, "该物品已上架,不用重复上架.");
                     } else {
                         ToastUtil.showToast(ProductDetailActivity.this, jsonObject.getString("error_msg"));
                     }

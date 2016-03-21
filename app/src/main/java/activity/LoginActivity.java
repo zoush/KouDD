@@ -554,7 +554,8 @@ public class LoginActivity extends BaseActivity {
                     JSONObject jsonObject = new JSONObject(responseInfo.result);
                     if (jsonObject.getInt("code") == 0) {
                         JSONObject jsonObject1 = jsonObject.getJSONObject("data");
-                        _pref.setTaoBaoId(jsonObject1.getString("taobao_user_id"));
+                        if (jsonObject1.getString("taobao_user_id").length() != 0)
+                            _pref.setTaoBaoId(jsonObject1.getString("taobao_user_id"));
                         if (jsonObject1.getString("mobile").length() == 0) {
                             Intent intent = new Intent(LoginActivity.this, BindTaoBaoActivity.class);
                             startActivity(intent);

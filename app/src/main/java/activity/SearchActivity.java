@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -38,7 +37,6 @@ import java.util.ArrayList;
 import bean.KeyBean;
 import bean.MarketBean;
 import utils.MD5;
-import utils.ToastUtil;
 import yd.koudd.BaseActivity;
 import yd.koudd.Constants;
 import yd.koudd.MyApplication;
@@ -81,19 +79,14 @@ public class SearchActivity extends BaseActivity {
 
         getSearchHistoryList();
 
-        etSearch.setOnKeyListener(new View.OnKeyListener() {
-            @Override
-            public boolean onKey(View v, int keyCode, KeyEvent event) {
-                ToastUtil.showToast(SearchActivity.this, keyCode + "");
-                return false;
-            }
-        });
-
         mHotFlowLayout.setOnTagClickListener(new TagFlowLayout.OnTagClickListener() {
             @Override
             public boolean onTagClick(View view, int position, FlowLayout parent) {
                 if (type == 1) {
-
+                    Intent intent = new Intent(SearchActivity.this, ProductListActivity.class);
+                    intent.putExtra("item_name", mValsProduct.get(position));
+                    intent.putExtra("title", mValsProduct.get(position));
+                    startActivity(intent);
                 } else if (type == 2) {
                     getRankList(mValsProduct.get(position));
                 } else if (type == 3) {
@@ -106,7 +99,10 @@ public class SearchActivity extends BaseActivity {
             @Override
             public boolean onTagClick(View view, int position, FlowLayout parent) {
                 if (type == 1) {
-
+                    Intent intent = new Intent(SearchActivity.this, ProductListActivity.class);
+                    intent.putExtra("item_name", mValsHistory.get(position));
+                    intent.putExtra("title", mValsHistory.get(position));
+                    startActivity(intent);
                 } else if (type == 2) {
                     getRankList(mValsHistory.get(position));
                 } else if (type == 3) {
@@ -123,8 +119,8 @@ public class SearchActivity extends BaseActivity {
             case R.id.tvSearch:
                 if (etSearch.getText().toString().length() != 0) {
                     Intent intent = new Intent(SearchActivity.this, ProductListActivity.class);
-                    intent.putExtra("title","");
-                    intent.putExtra("item_name",etSearch.getText().toString());
+                    intent.putExtra("title", "");
+                    intent.putExtra("item_name", etSearch.getText().toString());
                     startActivity(intent);
                 }
                 break;
